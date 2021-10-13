@@ -20,12 +20,10 @@ public class Program4 {
         //instance area
         System.out.println(a);//10
         System.out.println(b);//20
-        Program4 obj = new Program4();
-        System.out.println(obj.c);//30
-        Program4 obj1 = new Program4();
-        System.out.println(obj1.d);//40
-    }
+        System.out.println(Program4.c);
+        System.out.println(Program4.d);
 
+    }
     public static void myMethod() {
         System.out.println(c);// direct calling//30
         System.out.println(d);//40

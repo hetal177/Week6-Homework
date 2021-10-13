@@ -3,7 +3,7 @@ package Week6;
 import java.util.Scanner;
 
 public class Arithmetic {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Arithmetic obj = new Arithmetic(); //obc calling
         obj.Method();
     }

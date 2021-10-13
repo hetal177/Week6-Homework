@@ -16,14 +16,17 @@ public class Program3 {
     public void test() {
         //instance area
         System.out.println(a);// direct calling
-        Program3 obj1 = new Program3();
-        System.out.println(Program3.c); // calling by class
+       //program 3 obj1 = new Program3();
+        System.out.println(Program3.c); // calling by class name
     }
 
     public static void myMethod() {
-        System.out.println(c);// direct calling
+
+        System.out.println(c);// direct calling//20
         Program3 obj2 = new Program3();
-        System.out.println(obj2.a);
+        obj2.a=10;
+        System.out.println(obj2.a);//10
+
 
 
     }
